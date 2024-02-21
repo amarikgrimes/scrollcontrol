@@ -6,6 +6,9 @@ using UnityEngine;
 public class cloud : MonoBehaviour
 {
     [SerializeField] float Speed = 4f;
+    [SerializeField] float maxX;
+    [SerializeField] float minX;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,9 +19,9 @@ public class cloud : MonoBehaviour
     void Update()
     {
         transform.Translate(Time.deltaTime * Speed * Vector3.left);
-        if (transform.position.x<-14)
+        if (transform.position.x<maxX)
         {
-            transform.position = new Vector3(transform.position.x, 14f, 0f);
+            transform.position = new Vector3(minX, 0f, 0f);
         }
       
     }
