@@ -142,7 +142,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 4
   maxX: -14
-  minX: 12
+  minX: 14
 --- !u!1001 &863129099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -165,19 +165,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5.2138147
+      value: 6.619191
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.333725
+      value: 4.6880255
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 12.86
+      value: 11.8209
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.14
+      value: -0.6292
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalPosition.z
@@ -238,7 +238,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Speed: 4
   maxX: -14
-  minX: 12
+  minX: 14
 --- !u!1 &1664903029
 GameObject:
   m_ObjectHideFlags: 0
@@ -390,7 +390,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.79432184, g: 0.9576168, b: 0.9622642, a: 1}
+  m_Color: {r: 0.75, g: 0.9201984, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -427,21 +427,29 @@ PrefabInstance:
       propertyPath: m_Name
       value: cloud
       objectReference: {fileID: 0}
+    - target: {fileID: 6462565113005255392, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6462565113005255392, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 925469559
+      objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalScale.x
-      value: 7.3520412
+      value: 8.451326
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalScale.y
-      value: 4.4442344
+      value: 4.5420074
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.022
+      value: -2.9558
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.1365
+      value: 0.03
       objectReference: {fileID: 0}
     - target: {fileID: 8191656792533691373, guid: 1a144643bace9f0489da9af1be83a850, type: 3}
       propertyPath: m_LocalPosition.z
