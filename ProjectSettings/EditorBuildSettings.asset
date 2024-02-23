@@ -8,7 +8,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/reticle.unity
     guid: 2cda990e2423bbf4892e6590ba056729
-  - enabled: 1
+  - enabled: 0
     path: Assets/reticle.unity
     guid: 3cc51564a5c0c9e47ba379e737537049
+  - enabled: 0
+    path: Assets/gamecontroller.unity
+    guid: b0e7910abc833a84e9be8beeeeffcd53
+  - enabled: 1
+    path: Assets/objectinstantiation.unity
+    guid: 0a38b3849ce490844b2e4d91acf24df1
   m_configObjects: {}
